@@ -1,0 +1,38 @@
+body{
+    background-color: darkorchid;
+}
+
+h1, h2{
+    color: lightgrey;
+}
+
+h2{
+    font-style: oblique;
+}
+
+#word{
+    border: solid black 2px;
+    width: 200px;
+    height: 50px;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 30px;
+}
+
+#guessesAndGraveyard{
+    border: solid black 2px;
+    background-color: lightgrey;
+    width: 500px;
+    height: 200px;
+}
+
+
+.guessesAndGraveyard{
+    position: relative;
+    left: 10px;
+    font-size: 25px;
+}
+
+#wonOrLost{
+    font-size: 30px;
+}

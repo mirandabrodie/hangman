@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+
+<body>
+
+<h1>HANGMAN</h1>
+<h2>Pick a letter to try to guess the word!</h2>
+<select id = "level">
+    <option value = "1">Easy</option>
+    <option value = "2">Medium</option>
+    <option value = "3">Hard</option>
+</select>
+
+<button onclick = "startGame()">Start a Game</button>
+
+<br>
+<br>
+
+<select id = "letter">
+</select>
+<button onclick = "guessLetter()">Try</button>
+<br>
+<br>
+<div id = "word"></div>
+<br>
+<br>
+<div id = "guessesAndGraveyard">
+    <br>
+    <div class = "guessesAndGraveyard" id = "graveyard">Graveyard</div>
+    <div class = "guessesAndGraveyard" id = "guessedLetters"></div>
+    <br>
+    <span class = "guessesAndGraveyard" id = "guessesRemaining">Guesses Remaining: </span>
+    <div class = "guessesAndGraveyard" id = "guesses"></div>
+    <br>
+    <div id = "wonOrLost"></div>
+</div>
+
+</body>
+</html>
